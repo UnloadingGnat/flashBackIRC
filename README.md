@@ -30,7 +30,7 @@ Installation is simple. I will assume that you have `npm` and Python already ins
 ### Server Setup
 First, clone the repository and cd to the directory. We'll cd into the `Backend` folder to setup the server, first. 
 ```
-git clone https://github.com/JetDeveloping/summer-code-jam-2020.git
+git clone https://github.com/UnloadingGnat/summer-code-jam-2020.git
 cd summer-code-jam-2020/wiggly-weasels
 ```
 First, create a virtual environment and activate it. Then, we need to install the required packages:
