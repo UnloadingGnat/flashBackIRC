@@ -4,6 +4,8 @@ import os
 import sys
 
 
+
+# test
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'flashback.settings')
     try:
