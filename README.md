@@ -1,5 +1,5 @@
 # Flashback
-Flashback is an awesome, retro IRC based app built using Django (and the Django Rest Framework) for our backend as well as React for our frontend!
+Flashback is an awesome, retro IRC based app built using Django (and the Django Rest Framework) for our backend as well as React for our frontend! This project was made during the Summer Code Jam 2020.
 
 ## How to use
 Once you login or sign up to Flashback, you have access to the terminal! Here you run a few commands. You can connect to group chats, which allow you to contact chat with other Flashback users. You can also create your own group. We can use the `create` command to create a new group, and the `join` command to join it. Let's try it:
@@ -31,7 +31,7 @@ Installation is simple. I will assume that you have `npm` and Python already ins
 First, clone the repository and cd to the directory. We'll cd into the `Backend` folder to setup the server, first. 
 ```
 git clone https://github.com/UnloadingGnat/flashBackIRC.git
-cd summer-code-jam-2020/wiggly-weasels
+cd flashBackIRC
 ```
 First, create a virtual environment and activate it. Then, we need to install the required packages:
 ```
@@ -73,7 +73,7 @@ python3 manage.py runserver
 <!-- Make sure you are in `wiggly-weasels/Backend/flashback`. Then run the server by running: `python3 manage.py runserver`.  -->
 
 ### Site Setup
-While the Django server is running. Start a new terminal instance. We will start by assuming that you are in the `summer-code-jam-2020/wiggly-weasels` folder. We can run the following commands to get into the React project folder so we can install our project packages! 
+While the Django server is running. Start a new terminal instance. We will start by assuming that you are in the `flashBackIRC` folder. We can run the following commands to get into the React project folder so we can install our project packages! 
 ```
 cd Frontend/flashback
 npm install && npm start
